@@ -1,4 +1,4 @@
-#Birdeatsbaby lyrics generator
+# Birdeatsbaby lyrics generator
 
 Generates a new set of lyrics based on previously written lyrics.
 
