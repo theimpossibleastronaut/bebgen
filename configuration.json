@@ -1,0 +1,14 @@
+{
+	"apps": [
+		{
+			"domain": "bebgen.theimpossibleastronaut.com",
+			"folder": "lyrics",
+			"text": "Birdeatsbaby lyrics generator.\r\nEvery time you refresh this page, a new lyric is generated using computational linguistics based on previous lyrics.\r\nThis is a first version, so please forgive any problems with the generated text.\r\n-------------------\r\n\r\n"
+		},
+		{
+			"domain": "fsgen.theimpossibleastronaut.com",
+			"folder": "felinestrange",
+			"text": "Feline & Strange lyrics generator.\r\nEvery time you refresh this page, a new lyric is generated using computational linguistics based on previous lyrics.\r\nThis is a first version, so please forgive any problems with the generated text.\r\n-------------------\r\n\r\n"
+		}
+	]
+}
