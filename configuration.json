@@ -9,6 +9,12 @@
 			"domain": "fsgen.theimpossibleastronaut.com",
 			"folder": "felinestrange",
 			"text": "Feline & Strange lyrics generator.\r\nEvery time you refresh this page, a new lyric is generated using computational linguistics based on previous lyrics.\r\nThis is a first version, so please forgive any problems with the generated text.\r\n-------------------\r\n\r\n"
+		},
+		{
+			"domain": "iagen.theimpossibleastronaut.com",
+			"folder": "infantannihilator",
+			"text": "Infant Annihilator lyrics generator.\r\nEvery time you refresh this page, a new lyric is generated using computational linguistics based on previous lyrics.\r\nThis is a first version, so please forgive any problems with the generated text.\r\n-------------------\r\n\r\n"
 		}
+
 	]
 }
