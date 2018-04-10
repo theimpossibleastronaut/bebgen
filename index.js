@@ -75,21 +75,24 @@ function annotateModel() {
 }
 
 function readFiles(config, onFileContent, onError) {
-  fs.readdir(config.folder, function(err, filenames) {
-    if (err) {
-      onError(err);
-      return;
-    }
-    filenames.forEach(function(filename) {
-      fs.readFile(config.folder + "/" + filename, 'utf-8', function(err, content) {
-        if (err) {
-          onError(err);
-          return;
-        }
-        onFileContent(config, filename, content);
-      });
-    });
-  });
+	var paths = config.folder.split(",");
+	paths.forEach(function(theFolder){
+		fs.readdir(theFolder, function(err, filenames) {
+			if (err) {
+			  onError(err);
+			  return;
+			}
+			filenames.forEach(function(filename) {
+			  fs.readFile(theFolder + "/" + filename, 'utf-8', function(err, content) {
+			    if (err) {
+			      onError(err);
+			      return;
+			    }
+			    onFileContent(config, filename, content);
+			  });
+			});
+		});
+	});
 }
 
 function getConfiguration( req ) {
